@@ -19,7 +19,8 @@
     "revision":    "lineage-15.1-caf-8996"
   },
   {
-    "repository": "android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings"
+    "repository" : "packages_resources_MotoActions",
+    "target_path": "packages/resources/MotoActions",
+    "remote"     : "pixel"
   }
 ]
