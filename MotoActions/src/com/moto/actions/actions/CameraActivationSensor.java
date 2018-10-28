@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2015 The CyanogenMod Project
- * Copyright (c) 2017 The LineageOS Project
+ * Copyright (c) 2017 The AOSP Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -40,8 +39,8 @@ public class CameraActivationSensor implements SensorEventListener, UpdatedState
 
     private boolean mIsEnabled;
 
-    public CameraActivationSensor(MotoActionsSettings motoActionsSettings, SensorHelper sensorHelper) {
-        mMotoActionsSettings = motoActionsSettings;
+    public CameraActivationSensor(MotoActionsSettings MotoActionsSettings, SensorHelper sensorHelper) {
+        mMotoActionsSettings = MotoActionsSettings;
         mSensorHelper = sensorHelper;
         mSensor = sensorHelper.getCameraActivationSensor();
         mSensorHelper.registerListener(mSensor, this);

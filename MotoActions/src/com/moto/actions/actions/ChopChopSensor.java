@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2015-2016 The CyanogenMod Project
- * Copyright (c) 2017 The LineageOS Project
+ * Copyright (c) 2017 The AOSP Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -41,8 +40,8 @@ public class ChopChopSensor implements SensorEventListener, UpdatedStateNotifier
     private boolean mIsEnabled;
     private boolean mProxIsCovered;
 
-    public ChopChopSensor(MotoActionsSettings motoActionsSettings, SensorHelper sensorHelper) {
-        mMotoActionsSettings = motoActionsSettings;
+    public ChopChopSensor(MotoActionsSettings MotoActionsSettings, SensorHelper sensorHelper) {
+        mMotoActionsSettings = MotoActionsSettings;
         mSensorHelper = sensorHelper;
         mSensor = sensorHelper.getChopChopSensor();
         mProx = sensorHelper.getProximitySensor();

@@ -1,6 +1,5 @@
 /*
- * Copyright (c) 2016 The CyanogenMod Project
- * Copyright (c) 2017 The LineageOS Project
+ * Copyright (c) 2017 The AOSP Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -46,9 +45,9 @@ public class FlipToMute implements UpdatedStateNotifier {
     private Context mContext;
     private Receiver mReceiver;
 
-    public FlipToMute(MotoActionsSettings motoActionsSettings, Context context,
+    public FlipToMute(MotoActionsSettings MotoActionsSettings, Context context,
                 SensorHelper sensorHelper) {
-        mMotoActionsSettings = motoActionsSettings;
+        mMotoActionsSettings = MotoActionsSettings;
         mContext = context;
         mSensorHelper = sensorHelper;
         mFlatDown = sensorHelper.getFlatDownSensor();
