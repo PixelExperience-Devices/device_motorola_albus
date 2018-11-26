@@ -76,8 +76,9 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-	fstab.qcom \
-	init.albus.rc
+    fstab.qcom \
+    init.albus.rc \
+    init.gbmods.sh
 
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \

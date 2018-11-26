@@ -19,4 +19,15 @@ ifneq ($(filter albus, $(TARGET_DEVICE)),)
   subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 include $(CLEAR_VARS)
+
+MODS_LIBS := libmodhw.so
+MODS_SYMLINKS := $(addprefix $(TARGET_OUT)/priv-app/ModFmwkProxyService/lib/arm64/,$(notdir $(MODS_LIBS)))
+$(MODS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
+	@echo "MODS lib link: $@"
+	@mkdir -p $(dir $@)
+	@rm -rf $@
+	$(hide) ln -sf /system/lib64/$(notdir $@) $@
+
+ALL_DEFAULT_INSTALLED_MODULES += $(MODS_SYMLINKS)
+
 endif
