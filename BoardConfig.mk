@@ -21,6 +21,9 @@ DEVICE_PATH := device/motorola/albus
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := albus
 
+# Audio
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Display
 TARGET_SCREEN_DENSITY := 480
 
