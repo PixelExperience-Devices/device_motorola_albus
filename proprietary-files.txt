@@ -8,7 +8,7 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Audio - Prebuilt
-vendor/lib/hw/audio.primary.msm8953.so
+vendor/lib/hw/audio.primary.msm8953.so|488fc5246b5f2aa6e15b61a58acd6826e550bab0
 vendor/lib/libmotaudioutils.so
 vendor/lib/libsensorndkbridge.so
 vendor/lib/libtinyalsa.so

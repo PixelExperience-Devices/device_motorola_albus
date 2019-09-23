@@ -77,3 +77,6 @@ done
 # Load ZAF configs from vendor
 ZAF_CORE="$BLOB_ROOT"/vendor/lib/libzaf_core.so
 sed -i "s|/system/etc/zaf|/vendor/etc/zaf|g" "$ZAF_CORE"
+
+AUDIO_HAL="$BLOB_ROOT"/vendor/lib/hw/audio.primary.msm8953.so
+patchelf --replace-needed libcutils.so libprocessgroup.so "$AUDIO_HAL"
