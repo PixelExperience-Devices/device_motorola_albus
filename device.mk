@@ -84,8 +84,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.albus.rc \
-    init.gbmods.sh
-
+    init.gbmods.sh \
+    init.mmi.laser.sh
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \

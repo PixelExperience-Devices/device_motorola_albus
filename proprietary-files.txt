@@ -78,6 +78,7 @@ vendor/lib/camera.device@1.0-impl.so|13a93ca1a2e58e813f32f0c6348f6c1ad7937454
 
 # Camera-bin
 vendor/bin/mm-qcamera-daemon
+vendor/bin/vl53l1_daemon
 
 # Camera-actuators
 vendor/lib/libactuator_dw9718s.so
