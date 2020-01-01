@@ -7,6 +7,12 @@ vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
+# Audio - Soundfx
+vendor/lib/soundfx/libspeakerbundle.so
+vendor/lib/soundfx/libmmieffectswrapper.so
+vendor/lib/libeqservicebridge.so
+vendor/lib/motorola.hardware.audio.eqservice@1.0_vendor.so
+
 # Camera
 etc/zaf/zaf_mot_imx362.json:vendor/etc/zaf/zaf_mot_imx362.json
 etc/zaf/zaf_mot_s5k2l7.json:vendor/etc/zaf/zaf_mot_s5k2l7.json

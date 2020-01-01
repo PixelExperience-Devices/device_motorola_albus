@@ -35,6 +35,9 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/motomods.xml
+
 # NFC
 BOARD_NFC_CHIPSET := pn54x
 
