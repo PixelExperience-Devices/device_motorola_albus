@@ -472,7 +472,7 @@ vendor/lib/libmmcamera_mot_imx258_bear.so
 vendor/lib/libmmcamera_mot_imx258_mono.so
 vendor/lib/libmmcamera_mot_imx362.so
 vendor/lib/libmmcamera_mot_imx362_pdaf.so
-vendor/lib/libmmcamera_mot_ov5695.so
+vendor/lib/libmmcamera_mot_ov5695.so|eed040d7d651756c9b9adcbe80ce04901dc9048b
 vendor/lib/libmmcamera_mot_s5k2l7.so
 vendor/lib/libmmcamera_mot_s5k2l7sa.so
 vendor/lib/libmmcamera_mot_s5k2l7_pdaf.so
