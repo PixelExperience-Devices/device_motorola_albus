@@ -84,3 +84,6 @@ patchelf --replace-needed libcutils.so libprocessgroup.so "$AUDIO_HAL"
 # Correct mods gid
 MOD_PERM="$BLOB_ROOT"/etc/permissions/com.motorola.mod.xml
 sed -i "s|mot_mod|oem_5020|g" "$MOD_PERM"
+
+PPEISCORE="$BLOB_ROOT"/vendor/lib/libmmcamera_ppeiscore.so
+patchelf --add-needed libshim_camera.so "$PPEISCORE"
