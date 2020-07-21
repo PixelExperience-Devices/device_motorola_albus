@@ -20,7 +20,7 @@ ifneq ($(filter albus, $(TARGET_DEVICE)),)
   $(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 include $(CLEAR_VARS)
 
-MODS_LIBS := libmodhw.so
+MODS_LIBS := libmodhw.so libvibratorhw.so
 MODS_SYMLINKS := $(addprefix $(TARGET_OUT)/priv-app/ModFmwkProxyService/lib/arm64/,$(notdir $(MODS_LIBS)))
 $(MODS_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 	@echo "MODS lib link: $@"

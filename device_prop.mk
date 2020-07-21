@@ -12,6 +12,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.calfile5=/vendor/etc/acdbdata/Headset_cal.acdb \
     persist.vendor.audio.calfile6=/vendor/etc/acdbdata/Speaker_cal.acdb
 
+# Mods
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.mod.platformsdkversion=281
+
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.sar_sensor=1 \
