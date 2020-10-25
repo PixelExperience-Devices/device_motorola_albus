@@ -53,9 +53,12 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/camera/mot_s5k2l7sa_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_s5k2l7sa_chromatix.xml \
     $(DEVICE_PATH)/configs/camera/msm8953_mot_albus_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8953_mot_albus_camera.xml
 
-# Camera
 PRODUCT_PACKAGES += \
     libbson.vendor
+
+# Init
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/init.sys.albus.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.sys.albus.rc
 
 # ModService
 PRODUCT_COPY_FILES += \
