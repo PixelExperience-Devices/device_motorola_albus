@@ -10,7 +10,7 @@ vendor/etc/acdbdata/Speaker_cal.acdb
 # Camera
 etc/zaf/zaf_mot_imx362.json
 etc/zaf/zaf_mot_s5k2l7.json
-vendor/lib/hw/camera.msm8953.so
+vendor/lib/hw/camera.msm8953.so|f42ece3403431433ed3fa404246f96afe26801b7
 vendor/lib/hw/libcamera_mods_legacy_hal.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so

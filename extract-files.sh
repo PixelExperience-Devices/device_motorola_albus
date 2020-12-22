@@ -43,6 +43,9 @@ AOSP_ROOT="$MY_DIR"/../../..
 
 BLOB_ROOT="$AOSP_ROOT"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
 
+CAMERA_SERVICE="$BLOB_ROOT"/vendor/lib/hw/camera.msm8953.so
+sed -i "s|service.bootanim.exit|service.bootanim.hold|g" "${CAMERA_SERVICE}"
+
 readonly MMCAMERA=(
    vendor/lib/libmmcamera_vstab_module.so
    vendor/lib/libmmcamera2_stats_modules.so
