@@ -8,8 +8,8 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-etc/zaf/zaf_mot_imx362.json
-etc/zaf/zaf_mot_s5k2l7.json
+etc/zaf/zaf_mot_imx362.json:vendor/etc/zaf/zaf_mot_imx362.json
+etc/zaf/zaf_mot_s5k2l7.json:vendor/etc/zaf/zaf_mot_s5k2l7.json
 vendor/lib/hw/camera.msm8953.so|f42ece3403431433ed3fa404246f96afe26801b7
 vendor/lib/hw/libcamera_mods_legacy_hal.so
 vendor/lib/libS5k2l7Pdaf.so
@@ -42,7 +42,7 @@ vendor/lib/libSonyDualPDParam.so
 vendor/lib/libvideoutils.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libzaf_algs.so
-vendor/lib/libzaf_core.so
+vendor/lib/libzaf_core.so|c1523fdadb1ae5b5eb096e1a14ec952e28fdf68c
 vendor/lib/lib_mot_led_calibration.so
 vendor/lib/libmot_afd.so
 vendor/lib/libfamily_photo.so

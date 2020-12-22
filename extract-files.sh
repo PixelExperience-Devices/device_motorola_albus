@@ -73,3 +73,7 @@ readonly LIBWUI_FIXUP=(
 for i in "${LIBWUI_FIXUP[@]}"; do
   sed -i "s/libgui/libwui/" "$BLOB_ROOT"/${i}
 done
+
+# Load ZAF configs from vendor
+ZAF_CORE="$BLOB_ROOT"/vendor/lib/libzaf_core.so
+sed -i "s|/system/etc/zaf|/vendor/etc/zaf|g" "$ZAF_CORE"
