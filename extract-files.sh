@@ -42,3 +42,12 @@ export DEVICE_BRINGUP_YEAR=2017
 AOSP_ROOT="$MY_DIR"/../../..
 
 BLOB_ROOT="$AOSP_ROOT"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
+
+readonly MMCAMERA=(
+   vendor/lib/libmmcamera_vstab_module.so
+   vendor/lib/libmmcamera2_stats_modules.so
+)
+
+for i in "${MMCAMERA[@]}"; do
+  patchelf --remove-needed libandroid.so "$BLOB_ROOT"/${i}
+done
