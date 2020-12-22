@@ -30,7 +30,6 @@ TARGET_SCREEN_DENSITY := 480
 # Kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_CONFIG := albus_defconfig
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
