@@ -48,7 +48,7 @@ vendor/lib/libmot_afd.so
 vendor/lib/libfamily_photo.so
 vendor/lib/libadvalgcore.so
 vendor/lib/libjustshoot.so
-vendor/lib/libjscore.so
+vendor/lib/libjscore.so|3946cd76d19cc9d8654b06d04d61d20372ee62d8
 vendor/lib/libmorpho_image_stabilizer4.so
 vendor/lib/libzxingcpp.so
 lib/libmot-qc-fd-offline.so:vendor/lib/libmot-qc-fd-offline.so
@@ -56,9 +56,9 @@ lib/motorola.hardware.camera.device@1.0.so:vendor/lib/motorola.hardware.camera.d
 lib/libmot_lux_standardization.so:vendor/lib/libmot_lux_standardization.so
 lib/lib_mot_app6_metadata.so:vendor/lib/lib_mot_app6_metadata.so
 lib/lib_motsensorlistener.so:vendor/lib/lib_motsensorlistener.so
-lib/lib_mottof.so:vendor/lib/lib_mottof.so
+lib/lib_mottof.so:vendor/lib/lib_mottof.so|a7908fbec2a0b6727250cd430d00b35324969e5a
 lib/libcamerabgproc-jni.so:vendor/lib/libcamerabgproc-jni.so
-lib/libcamerabgprocservice.so:vendor/lib/libcamerabgprocservice.so
+lib/libcamerabgprocservice.so:vendor/lib/libcamerabgprocservice.so|5b7236592d6a21202473016a6f45e902307efe6d
 vendor/lib/camera.device@1.0-impl.so|13a93ca1a2e58e813f32f0c6348f6c1ad7937454
 
 # Camera-bin
@@ -394,7 +394,7 @@ vendor/lib/libmmcamera2_pp_buf_mgr.so
 vendor/lib/libmmcamera2_q3a_core.so
 vendor/lib/libmmcamera2_sensor_modules.so|ae4c4b38c4206acbc1502a0ec67328bd96cd8512
 vendor/lib/libmmcamera2_stats_algorithm.so
-vendor/lib/libmmcamera2_stats_modules.so|99382da9c5ed6c0641b82a77b027ce68d1c89d9c
+vendor/lib/libmmcamera2_stats_modules.so|6192720de2f8d31936abdcaf299d634b994fc932
 vendor/lib/libmmcamera_ar1335.so
 vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_dbg.so
@@ -471,7 +471,7 @@ vendor/lib/libmmcamera_paaf_lib.so
 vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_ppbase_module.so
-vendor/lib/libmmcamera_ppeiscore.so
+vendor/lib/libmmcamera_ppeiscore.so|612f2886eda705ef143b01dab5c1cc6ecce5b19d
 vendor/lib/libmmcamera_quadracfa.so
 vendor/lib/libmmcamera_s5k2l7_eeprom.so
 vendor/lib/libmmcamera_s5k3p3.so
@@ -486,7 +486,7 @@ vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_ubifocus_lib.so
-vendor/lib/libmmcamera_vstab_module.so|a662d7387292b7eec46a1ad5bda28b918b5fb11d
+vendor/lib/libmmcamera_vstab_module.so|1aeb209a4e70e073c18a53fbb0c78767af6fd6a5
 
 # charging
 vendor/bin/charge_only_mode

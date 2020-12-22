@@ -55,3 +55,18 @@ done
 # Load camera configs from vendor
 CAMERA2_SENSOR_MODULES="$BLOB_ROOT"/vendor/lib/libmmcamera2_sensor_modules.so
 sed -i "s|/system/etc/camera/|/vendor/etc/camera/|g" "$CAMERA2_SENSOR_MODULES"
+
+PROC_SERVICE="$BLOB_ROOT"/vendor/lib/libcamerabgprocservice.so
+patchelf --remove-needed libcamera_client.so "$PROC_SERVICE"
+
+readonly LIBWUI_FIXUP=(
+   vendor/lib/libmmcamera_vstab_module.so
+   vendor/lib/libmmcamera_ppeiscore.so
+   vendor/lib/libmmcamera2_stats_modules.so
+   vendor/lib/libjscore.so
+   vendor/lib/lib_mottof.so
+)
+
+for i in "${LIBWUI_FIXUP[@]}"; do
+  sed -i "s/libgui/libwui/" "$BLOB_ROOT"/${i}
+done
