@@ -51,3 +51,7 @@ readonly MMCAMERA=(
 for i in "${MMCAMERA[@]}"; do
   patchelf --remove-needed libandroid.so "$BLOB_ROOT"/${i}
 done
+
+# Load camera configs from vendor
+CAMERA2_SENSOR_MODULES="$BLOB_ROOT"/vendor/lib/libmmcamera2_sensor_modules.so
+sed -i "s|/system/etc/camera/|/vendor/etc/camera/|g" "$CAMERA2_SENSOR_MODULES"
