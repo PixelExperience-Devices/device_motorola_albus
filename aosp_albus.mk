@@ -31,4 +31,4 @@ PRODUCT_MODEL := Moto Z2 Play
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="motorola/albus/albus:8.0.0/OPSS27.76-12-28-15/13:user/release-keys"
+    PRIVATE_BUILD_DESC="albus-user 9 PPS29.133-30 ab8b4 release-keys"
