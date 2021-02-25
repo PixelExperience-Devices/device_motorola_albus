@@ -61,6 +61,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/whitelist_modservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/whitelist_modservice.xml
 
+# Motorola Health
+PRODUCT_PACKAGES += \
+    motorola.hardware.health@1.0.vendor
+
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.1-service \

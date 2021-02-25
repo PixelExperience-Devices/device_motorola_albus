@@ -537,8 +537,6 @@ vendor/firmware/synaptics-s3508sga-17022300-255c40-albus.tdat
 # MotHealth
 vendor/bin/hw/motorola.hardware.health@1.0-service
 vendor/etc/init/motorola.hardware.health@1.0-service.rc
-vendor/lib/motorola.hardware.health@1.0.so
-vendor/lib64/motorola.hardware.health@1.0.so
 
 # Moto Mods
 system/etc/firmware/upd-00000126-00001001-fed70128-fffe0001-02.tftf
