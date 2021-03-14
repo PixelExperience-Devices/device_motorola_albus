@@ -545,7 +545,7 @@ system/etc/permissions/com.motorola.mod.protocols.xml
 system/etc/permissions/com.motorola.mod.xml
 system/etc/permissions/com.motorola.mod_config.xml
 system/etc/permissions/com.motorola.mod_v2.xml
-system/etc/permissions/privapp-permissions-com.motorola.modservice.xml
+system/etc/permissions/privapp-permissions-com.motorola.modservice.xml|69ebb12342c2fd286ba03d8de93d8c6da1e054b4
 system/etc/permissions/privapp-permissions-com.motorola.projectormod.xml
 system/etc/sysconfig/hiddenapi-whitelist-com.motorola.modservice.xml
 system/etc/sysconfig/hiddenapi-whitelist-com.motorola.projectormod.xml
