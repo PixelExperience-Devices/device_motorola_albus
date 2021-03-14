@@ -557,8 +557,8 @@ system/lib/motorola.hardware.vibrator@1.0.so
 vendor/bin/mods_camd
 vendor/lib/com.motorola.mod@1.0_vendor.so
 vendor/lib/libmodmanager.so
--system/priv-app/ModFmwkProxyService/ModFmwkProxyService.apk|61692e798dc4bd5f19e7b2809cd9a57f7d490f23
--system/priv-app/ModService/ModService.apk;PRESIGNED
+-system/priv-app/ModFmwkProxyService/ModFmwkProxyService.apk|fd96aa995170f0fc15ab9080c2e40a060dcb4ba0
+-system/priv-app/ModService/ModService.apk|f285b645d649cbce1a31f0808a1a14a0105e6f12
 -system/priv-app/ProjectorApp/ProjectorApp.apk;PRESIGNED
 
 # NFC
