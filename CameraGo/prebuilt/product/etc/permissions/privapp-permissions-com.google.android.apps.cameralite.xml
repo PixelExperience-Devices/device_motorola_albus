@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+
+    <!--add by gaoweili.wt for DRX-4223 on 20200220-->
+    <privapp-permissions package="com.google.android.apps.cameralite">
+        <permission name="android.permission.WRITE_SETTINGS"/>
+    </privapp-permissions>
+
+</permissions>

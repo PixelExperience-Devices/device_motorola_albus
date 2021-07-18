@@ -51,6 +51,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/camera/msm8953_mot_albus_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8953_mot_albus_camera.xml
 
 PRODUCT_PACKAGES += \
+    CameraGo \
     libbson.vendor
 
 # Init

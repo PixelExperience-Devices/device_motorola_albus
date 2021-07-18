@@ -1,0 +1,21 @@
+android_app_import {
+    name: "CameraGo",
+    apk: "prebuilt/product/priv-app/CameraGo/CameraGo.apk",
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    required: ["privapp-permissions-com.google.android.apps.cameralite"],
+    overrides: ["Camera2", "Snap"],
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-com.google.android.apps.cameralite",
+    sub_dir: "permissions",
+    src: "prebuilt/product/etc/permissions/privapp-permissions-com.google.android.apps.cameralite.xml",
+    filename_from_src: true,
+    product_specific: true,
+}
+
